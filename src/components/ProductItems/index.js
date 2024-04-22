@@ -14,27 +14,27 @@ const ProductItems = props => {
     }
 
     return (
-        <Link to={`/products/${id}`} className='product-main-items-container nav-link'>
+        <div className='product-main-items-container'>
             <li className='product-items-container'>
-                <div className='product-item-image-container'>
+                <Link to={`/products/${id}`} className='product-item-image-container  nav-link'>
                     <img src={image} className='product-item-image' alt='Product'/>
-                </div>
+                </Link>
                 <div className='product-item-details-container'>
-                    <div  className='product-item-details'>
+                    <Link to={`/products/${id}`} className='product-item-details nav-link'>
                         <h4 className='product-item-title'>{title}</h4>
                         <p className='product-item-description'>{description}</p>
-                    </div>
+                    </Link>
                     <IoHeartSharp size={20} color={isLike ? 'red' : 'gray'} className='like-icon' onClick={onClickLikeButton}/>
                 </div>
-                <div className='product-price-and-rating'>
+                <Link to={`/products/${id}`} className='product-price-and-rating nav-link'>
                     <h4 className='product-item-price'> Rs.{price}</h4>
                     <div className='product-item-rating-container'>
                         <GoStarFill size={10} color="white" />
                         <p className='product-rating'>{rating.rate}</p>
                     </div>
-                </div>
+                </Link>
             </li>
-        </Link>
+        </div>
     )
 }
 
