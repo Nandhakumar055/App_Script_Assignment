@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import {Link} from "react-router-dom"
+import {Link } from "react-router-dom"
 import { HiMiniBars3,  HiOutlineShoppingBag } from "react-icons/hi2";
 import { BiLogoUnity } from "react-icons/bi";
 import { FiSearch } from "react-icons/fi";

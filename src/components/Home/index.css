@@ -210,8 +210,16 @@
 
 .not-display-filter-items-conntainer{
     margin: 0;
+    width: 200px;
     animation: fadeInUp 0.5s ease forwards;
 }
+@media screen and (min-width: 768px) {
+    .not-display-filter-items-conntainer{
+        width: 30%;
+        max-width: 230px;
+    }
+}
+
 
 .filter-item-checkbox{
     list-style: none;

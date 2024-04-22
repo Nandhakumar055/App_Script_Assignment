@@ -68,7 +68,7 @@ class Products extends Component {
         const {filterToggle} = this.props 
 
         const isDisplayFilterItems  = filterToggle ? 'right-transition' : 'left-transition'  
-        console.log(filterToggle)
+        
         return (
             <>
                 {isLoadingScreen ? (
