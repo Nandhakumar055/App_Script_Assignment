@@ -14,8 +14,8 @@ const ProductItems = props => {
     }
 
     return (
-        <div className='product-main-items-container'>
-            <li className='product-items-container'>
+        <li className='product-main-items-container'>
+            <div className='product-items-container'>
                 <Link to={`/products/${id}`} className='product-item-image-container  nav-link'>
                     <img src={image} className='product-item-image' alt='Product'/>
                 </Link>
@@ -33,8 +33,8 @@ const ProductItems = props => {
                         <p className='product-rating'>{rating.rate}</p>
                     </div>
                 </Link>
-            </li>
-        </div>
+            </div>
+        </li>
     )
 }
 

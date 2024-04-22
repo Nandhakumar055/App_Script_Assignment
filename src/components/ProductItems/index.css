@@ -1,5 +1,6 @@
 
 .product-main-items-container{
+    list-style: none;
     padding: 5px;
     min-width: 150px;
     max-width: 250px;
