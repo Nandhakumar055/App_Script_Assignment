@@ -1,7 +1,8 @@
 
 import { useState } from "react";
 import {Link } from "react-router-dom"
-import { HiMiniBars3,  HiOutlineShoppingBag } from "react-icons/hi2";
+import { VscThreeBars } from "react-icons/vsc";
+import { BsHandbag } from "react-icons/bs";
 import { BiLogoUnity } from "react-icons/bi";
 import { FiSearch } from "react-icons/fi";
 import { IoHeartOutline } from "react-icons/io5";
@@ -29,7 +30,7 @@ const Header = ()=>{
                 {navbarToggle ? (
                     <GiTireIronCross className="cross-mark-icon" size={25} onClick={onClickNavbar}/>  
                 ) : (
-                    <HiMiniBars3 className="nav-bar-icon" size={25} onClick={onClickNavbar}/>)
+                    <VscThreeBars className="nav-bar-icon" size={25} onClick={onClickNavbar}/>)
                 }
                 <Link to="/" className="nav-link">
                     <BiLogoUnity className="website-logo" size={30}/>
@@ -49,7 +50,7 @@ const Header = ()=>{
                 </li>
                 <li className="nav-item">
                     <Link to="/Products" className="nav-link">
-                        <HiOutlineShoppingBag size={23} />
+                        <BsHandbag size={23} />
                     </Link>
                 </li>
             </ul>
@@ -75,7 +76,7 @@ const Header = ()=>{
                 </li>
                 <li className="nav-item">
                     <Link to="/products" className="nav-link">
-                        <HiOutlineShoppingBag size={23} />
+                        <BsHandbag size={23} />
                     </Link>
                 </li>
                 <li className="nav-item">

@@ -1,5 +1,4 @@
 import { Component } from "react";
-import {Helmet} from "react-helmet"
 import { LuArrowBigDownDash, LuArrowBigUpDash  } from "react-icons/lu";
 import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 
