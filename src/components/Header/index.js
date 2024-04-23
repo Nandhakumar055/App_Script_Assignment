@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import {Link } from "react-router-dom"
-import { VscThreeBars } from "react-icons/vsc";
+import { HiMiniBars3 } from "react-icons/hi2";
 import { BsHandbag } from "react-icons/bs";
 import { BiLogoUnity } from "react-icons/bi";
 import { FiSearch } from "react-icons/fi";
@@ -30,7 +30,7 @@ const Header = ()=>{
                 {navbarToggle ? (
                     <GiTireIronCross className="cross-mark-icon" size={25} onClick={onClickNavbar}/>  
                 ) : (
-                    <VscThreeBars className="nav-bar-icon" size={25} onClick={onClickNavbar}/>)
+                    <HiMiniBars3 className="nav-bar-icon" size={25} onClick={onClickNavbar}/>)
                 }
                 <Link to="/" className="nav-link">
                     <BiLogoUnity className="website-logo" size={30}/>
@@ -50,7 +50,7 @@ const Header = ()=>{
                 </li>
                 <li className="nav-item">
                     <Link to="/Products" className="nav-link">
-                        <BsHandbag size={23} />
+                        <BsHandbag size={21} />
                     </Link>
                 </li>
             </ul>
@@ -76,11 +76,11 @@ const Header = ()=>{
                 </li>
                 <li className="nav-item">
                     <Link to="/products" className="nav-link">
-                        <BsHandbag size={23} />
+                        <BsHandbag size={21} />
                     </Link>
                 </li>
                 <li className="nav-item">
-                    <CiUser size={23} />
+                    <CiUser size={24} />
                 </li>
                 <li className="nav-item">
                     <select className="language-select">

@@ -46,7 +46,7 @@
 .product-item-details-container{
     padding: 10px;
     padding-bottom: 0px;
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(243, 243, 243);
     display: flex;
     width: 100%;
 }
@@ -88,9 +88,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding: 20px 10px;
     background-color: white;
-    padding-bottom: 20px;
+}
+@media screen and (min-width:768px) {
+    .product-price-and-rating{
+        padding-top: 10px;
+    }
 }
 
 .product-item-price{

@@ -10,10 +10,11 @@
 
 
 .product-section-container{
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(238, 238, 238);
     width: 100%;
     display: flex;
     justify-content: center;
+    padding: 20px;
 }
 @media screen and (min-width:768px) {
     .product-section-container{
@@ -29,7 +30,6 @@
     width: 100%;
     max-width: 1200px;
     padding-inline-start: 0px;
-    padding: 20px;
     padding: 0px -5px;
 }
 @media screen and (min-width:992px) {
