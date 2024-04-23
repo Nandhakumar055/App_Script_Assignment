@@ -9,7 +9,6 @@
 }
 
 
-
 .product-section-container{
     background-color: rgb(226, 226, 226);
     width: 100%;
@@ -29,6 +28,7 @@
     flex-wrap: wrap;
     width: 100%;
     max-width: 1200px;
+    padding-inline-start: 0px;
     padding: 20px;
     padding: 0px -5px;
 }

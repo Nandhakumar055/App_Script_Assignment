@@ -2,7 +2,7 @@ import { Component } from "react";
 
 import {ThreeCircles} from 'react-loader-spinner'
 
-import "./index.css"
+import './index.css'
 import ProductItems from '../ProductItems'
 
 
