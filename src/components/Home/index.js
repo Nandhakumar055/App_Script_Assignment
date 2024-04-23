@@ -36,10 +36,6 @@ class Home extends Component{
         return(
             <div className="home-main-container">
                 <Header />
-                <Helmet>
-                    <title>App Script</title>
-                   <meta name="description" content="Description of my page" />
-                </Helmet>
                 <div className="home-container">
                     <div className='indicate-nav-container'>
                         <p className='indicate-home-item'>HOME</p>
